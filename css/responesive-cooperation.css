@@ -1,0 +1,36 @@
+/* PC */
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 11px;
+  }
+
+  .hero {
+    height: 65vh;
+  }
+
+  .partnership-grid {
+    height: 50vh;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+  html {
+    font-size: 7px;
+  }
+
+  .partnership-grid {
+    height: 40vh;
+  }
+
+  .hero {
+    height: 50vh;
+  }
+}
