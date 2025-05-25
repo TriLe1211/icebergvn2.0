@@ -16,10 +16,12 @@ const enTranslations = {
   'features-detail-6': 'Detailed revenue reports',
   'partners-title': 'Our Partners',
   // About page
-  'about_us': 'About Us',
-  'our_mission': 'Our Mission',
-  'our_team': 'Our Team',
-
+  // 'about_us': 'About Us',
+  'about-content':'We are established in 2017, our head office is located at 92 Nguyen Huu Canh, Ward 22, Binh Thanh District, Ho Chi Minh City. Our company is specializing in vending machines. ',
+  'vision':'Our Vision',
+  'vision-content':'Vending machine is a great invention of the 1980s and being so popular in all developed countries such as Japan, Korea, China, Malaysia, etc. We wish to expand the popularity of vending machines to serve Vietnamese people and improve a modern Vietnamese image.',
+  'more-info-title':'VENDING MACHINE',
+  'more-info-content':'The vending machines have many utilities to better serve human life. Vending machines can operate 24 hours a day which consumers can serve themselves at any time. It can help to save processing time, fulfill consumers needs and ensure safety & health for consumers. Moreover, vending machine can save space and human resources for operating sales to serve consumers.Take Box is committed to providing machine products with clear origin and ensuring food hygiene and safety. Soft drinks are kept at a stable temperature to be sure they are stored in a good condition. In addition, consumers have a variety of choices for themselves such as drinks with different types and brands, snacks, candies at affordable prices.',
   // Contact page
   'contact_us': 'Contact Us',
   'your_name': 'Your Name',
@@ -51,10 +53,12 @@ const viTranslations = {
   'features-detail-6': 'Báo cáo doanh thu chi tiết',
   'partners-title': 'Đối tác của chúng tôi',
   // About page
-  'about_us': 'Về chúng tôi',
-  'our_mission': 'Sứ mệnh của chúng tôi',
-  'our_team': 'Đội ngũ của chúng tôi',
-
+  // 'about_us': 'Về chúng tôi',
+  'about-content':'Take Box được thành lập năm 2017, được tọa lạc tại văn phòng chính địa chỉ 92 Nguyễn Hữu Cảnh, Phường 22, Quận Bình Thạnh, TPHCM. Chúng tôi chuyên cung cấp máy bán hàng tự động.',
+  'vision':'Tầm nhìn',
+  'vision-content':'Máy bán hàng tự động là một phát minh tuyệt vời vào năm 1980 và đang dần phổ biến ở các nước phát triển như Nhật Bản, Hàn Quốc, Trung Quốc, Malaysia, …vv. Chúng tôi hy vọng sẽ mở rộng và phục vụ máy này tại thị trường Việt nam cho người Việt Nam, và góp phần xây dựng hình ảnh hiện đại đô thị.',
+  'more-info-title':'Máy bán hàng tự động',
+  'more-info-content':'Máy bán hàng tự động có rất nhiều tiện ích cho con người. máy hoạt động 24h trong ngày, điều đó giúp cho khách hàng có thể sử dụng bất cứ lúc nào. Bên cạnh đó giúp tiết kiệm thời gian cho khách hàng cũng như là đáp ứng đúng nhu cầu của khách với đảm bảo tốt về chất lượng và sức khỏe. Mặt khác, máy bán hàng tự động tiết kiệm không gian và không cần nhân lực để phục vụ quý khách.Chúng tôi cam kết cung cấp máy từ nguồn góc rõ ràng và đảm bảo thức ăn đồ uống vệ sinh và an toàn. Đồ uống được giữ ở một nhiệt độ ổn định và môi trường điều kiện tốt. khách hàng có nhiều sự lựa chọn về đồ ăn thức uống như thương hiệu, nhãn hiệu, giá…',
   // Contact page
   'contact_us': 'Liên hệ với chúng tôi',
   'your_name': 'Họ và tên',
@@ -163,8 +167,9 @@ async function includeHTML(elementId, path) {
   }
 }
 
-// Load navbar
+// Load navbar and footer
 document.addEventListener('DOMContentLoaded', function() {
+    // Load navbar
     fetch('../pages/navbar.html')
         .then(response => response.text())
         .then(data => {
@@ -176,6 +181,14 @@ document.addEventListener('DOMContentLoaded', function() {
             setActiveNavLink();
         })
         .catch(error => console.error('Error loading navbar:', error));
+
+    // Load footer
+    fetch('../pages/footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading footer:', error));
 });
 
 // Add active class to current page link
