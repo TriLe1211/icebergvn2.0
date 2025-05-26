@@ -1,5 +1,4 @@
-:root {
-}
+:root {}
 
 .cooperation {
   padding-top: 5rem;
@@ -51,12 +50,14 @@
 
 .icon {
   font-size: 4.4rem;
+  padding: 10px;
+  /* font-weight: 300; */
 }
 
 .partnership-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 65vh;
+  height: 60vh;
 }
 
 .partnership-card {
@@ -75,7 +76,8 @@
 
 .partnership-card h2 {
   width: 75%;
-  font-size: 1.5rem;
+  font-size: 30px;
+  font-weight: bold;
   margin: 1rem auto;
   color: #333;
   text-transform: uppercase;
@@ -85,7 +87,7 @@
   width: 75%;
   color: #666;
   margin: 2rem auto;
-  font-size: 0.875rem;
+  font-size: 24px;
 }
 
 .read-more {

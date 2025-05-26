@@ -22,13 +22,18 @@ const enTranslations = {
   'vision-content':'Vending machine is a great invention of the 1980s and being so popular in all developed countries such as Japan, Korea, China, Malaysia, etc. We wish to expand the popularity of vending machines to serve Vietnamese people and improve a modern Vietnamese image.',
   'more-info-title':'VENDING MACHINE',
   'more-info-content':'The vending machines have many utilities to better serve human life. Vending machines can operate 24 hours a day which consumers can serve themselves at any time. It can help to save processing time, fulfill consumers needs and ensure safety & health for consumers. Moreover, vending machine can save space and human resources for operating sales to serve consumers.Take Box is committed to providing machine products with clear origin and ensuring food hygiene and safety. Soft drinks are kept at a stable temperature to be sure they are stored in a good condition. In addition, consumers have a variety of choices for themselves such as drinks with different types and brands, snacks, candies at affordable prices.',
-  // Contact page
-  'contact_us': 'Contact Us',
-  'your_name': 'Your Name',
-  'your_email': 'Your Email',
-  'your_message': 'Your Message',
-  'send': 'Send Message',
-
+  // Cooperation page
+  'partnership': 'PARTNERSHIP',
+  'partnership-text': 'The essence of Take Box is always base on user needs, integrate arious resources from different industries to provide users with quality services. Through innovation, intelligent operation, deep understanding of the market, we provide valuable services to our customers.',
+  'become-a-location': 'BECOME A LOCATION',
+  'become-a-location-text': 'Install vending machine in your place and become a Take Box location',
+  'advertisment': 'ADVERTISMENT',
+  'advertisment-text': 'Take Box commits to help advertisers reach their target accurately',
+  'lease-and-franchise':'LEASE & FRANCHISE',
+  'lease-and-franchise-text':'Become a Take Box partners and develop the new generation of business',
+  'promotion': 'PRODUCT PROMOTION',
+  'promotion-text': 'Introduce new drinks, snack and food in Take Box machine',
+  'read-more':'Read More',
   // Footer
   'follow_us': 'Follow Us',
   'privacy_policy': 'Privacy Policy',
@@ -59,12 +64,18 @@ const viTranslations = {
   'vision-content':'Máy bán hàng tự động là một phát minh tuyệt vời vào năm 1980 và đang dần phổ biến ở các nước phát triển như Nhật Bản, Hàn Quốc, Trung Quốc, Malaysia, …vv. Chúng tôi hy vọng sẽ mở rộng và phục vụ máy này tại thị trường Việt nam cho người Việt Nam, và góp phần xây dựng hình ảnh hiện đại đô thị.',
   'more-info-title':'Máy bán hàng tự động',
   'more-info-content':'Máy bán hàng tự động có rất nhiều tiện ích cho con người. máy hoạt động 24h trong ngày, điều đó giúp cho khách hàng có thể sử dụng bất cứ lúc nào. Bên cạnh đó giúp tiết kiệm thời gian cho khách hàng cũng như là đáp ứng đúng nhu cầu của khách với đảm bảo tốt về chất lượng và sức khỏe. Mặt khác, máy bán hàng tự động tiết kiệm không gian và không cần nhân lực để phục vụ quý khách.Chúng tôi cam kết cung cấp máy từ nguồn góc rõ ràng và đảm bảo thức ăn đồ uống vệ sinh và an toàn. Đồ uống được giữ ở một nhiệt độ ổn định và môi trường điều kiện tốt. khách hàng có nhiều sự lựa chọn về đồ ăn thức uống như thương hiệu, nhãn hiệu, giá…',
-  // Contact page
-  'contact_us': 'Liên hệ với chúng tôi',
-  'your_name': 'Họ và tên',
-  'your_email': 'Email của bạn',
-  'your_message': 'Nội dung tin nhắn',
-  'send': 'Gửi tin nhắn',
+   // Cooperation page
+   'partnership': 'HỢP TÁC',
+   'partnership-text': 'Take box luôn phục vụ dựa trên nhu cầu của khách hàng, tích hợp các nguồn lực khác nhau từ các ngành công nghiệp riêng biệt để cung cấp cho khách hàng với dịch vụ tốt nhất. Thông qua sự cải tiến, sự vận hành thông minh, am hiểu về thị trường, chúng tôi cung cấp dịch vụ giá trị cho khách hàng.',
+   'become-a-location': 'TRỞ THÀNH ĐỊA ĐIỂM ĐẶT',
+   'become-a-location-text': 'Lắp đặt máy bán hàng tự động tại chỗ của bạn và trở thành địa điểm của Take Box.',
+   'advertisment': 'QUẢNG CÁO',
+   'advertisment-text': 'Take box cam kết hỗ trợ đối tác tiếp cận được mục tiêu đối tượng chính xác.',
+   'lease-and-franchise':'THUÊ VÀ NHƯỢNG QUYỀN',
+   'lease-and-franchise-text':'Trở thành đối tác của Take Box và phát triển một lối kinh doanh mới',
+   'promotion': 'XÚC TIẾN SẢN PHẨM',
+   'promotion-text': 'Giới thiệu đồ ăn thức uống mới thông qua Take box.',
+   'read-more':'Đọc thêm',
 
   // Footer
   'follow_us': 'Theo dõi chúng tôi',

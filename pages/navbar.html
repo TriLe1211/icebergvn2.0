@@ -13,7 +13,21 @@
         <div class="navbar-nav d-flex flex-row justify-content-end px-3">
           <a href="home.html" class="nav-link" data-translate="home">TRANG CHỦ</a>
           <a href="introduce.html" class="nav-link" data-translate="about">GIỚI THIỆU</a>
-          <a href="cooperation.html" class="nav-link" data-translate="cooperation">HỢP TÁC</a>
+          <div class="dropdown">
+            <a href="cooperation.html" class="nav-link" data-translate="cooperation">HỢP TÁC</a>
+            <button class="btn dropdown-toggle ml-1" type="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <!-- <i class="fas fa-chevron-down"></i> -->
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="cooperation.html#location" data-translate="become-a-location">TRỞ THÀNH
+                ĐIỂM ĐẶT</a>
+              <a class="dropdown-item" href="cooperation.html#advertisement" data-translate="advertisment">QUẢNG CÁO</a>
+              <a class="dropdown-item" href="cooperation.html#franchise" data-translate="lease-and-franchise">CHO THUÊ &
+                NHƯỢNG QUYỀN</a>
+              <a class="dropdown-item" href="cooperation.html#promotion" data-translate="promotion">KHUYẾN MÃI</a>
+            </div>
+          </div>
           <a href="contact.html" class="nav-link" data-translate="contact">LIÊN HỆ</a>
           <div class="dropdown ml-3">
             <button class="btn btn-outline-warning dropdown-toggle" type="button" id="languageDropdown"

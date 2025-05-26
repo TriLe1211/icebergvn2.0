@@ -1,36 +1,193 @@
-/* PC */
-@media screen and (min-width: 992px) {
+/* Full Screen PC */
+@media screen and (min-width: 1200px) {
   html {
     font-size: 16px;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero .title {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero .desc {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .partnership-grid {
+    height: 60vh;
+  }
+
+  .partnership-card {
+    padding: 2rem;
+  }
+
+  .partnership-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .partnership-card p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .partnership-card .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* PC (992px) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    font-size: 16px;
+  }
+
+  .hero {
+    height: 50vh;
+  }
+
+  .hero .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero .desc {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .partnership-grid {
+    height: 50vh;
+  }
+
+  .partnership-card {
+    padding: 1.5rem;
+  }
+
+  .partnership-card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .partnership-card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+  }
+
+  .partnership-card .icon {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
   }
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   html {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .hero {
-    height: 65vh;
+    height: 70vh;
+    flex-direction: column;
+  }
+
+  .hero .hero-img,
+  .hero .hero-section {
+    width: 100% !important;
+  }
+
+  .hero .hero-img {
+    height: 40%;
+  }
+
+  .hero .hero-section {
+    height: 60%;
   }
 
   .partnership-grid {
-    height: 50vh;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .partnership-card {
+    width: 50%;
+    height: 300px;
+    padding: 1.5rem;
+  }
+
+  .partnership-card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .partnership-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .partnership-card .icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
   }
 }
 
 /* Mobile */
 @media screen and (max-width: 767.98px) {
   html {
-    font-size: 7px;
-  }
-
-  .partnership-grid {
-    height: 40vh;
+    font-size: 12px;
   }
 
   .hero {
-    height: 50vh;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .hero .hero-img,
+  .hero .hero-section {
+    width: 100% !important;
+  }
+
+  .hero .hero-img {
+    height: 200px;
+  }
+
+  .hero .hero-section {
+    padding: 2rem 0;
+  }
+
+
+  .partnership-grid {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .partnership-card {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+    padding: 1.2rem;
+  }
+
+  .partnership-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .partnership-card p {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .partnership-card .icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
   }
 }
